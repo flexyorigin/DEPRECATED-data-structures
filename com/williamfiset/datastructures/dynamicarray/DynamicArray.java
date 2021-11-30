@@ -8,7 +8,7 @@ package com.williamfiset.datastructures.dynamicarray;
 @SuppressWarnings("unchecked")
 public class DynamicArray<T> implements Iterable<T> {
 
-  private T[] arr;
+  private T[] arr; //static array
   private int len = 0; // length user thinks array is
   private int capacity = 0; // Actual array size
 
